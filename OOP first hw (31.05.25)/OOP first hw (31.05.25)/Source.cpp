@@ -9,28 +9,28 @@ private:
 	string material;
 
 public:
-	void SetLenght(int new_lenght)
+	void SetLenght(int lenght)
 	{
-		if (new_lenght < 5 && new_lenght > 600)
+		if (lenght < 5 && lenght > 600)
 			cout << "incorrect value for lenght. Please enter value from 5 to 600\n";
 		else
-			lenght = new_lenght;
+			this->lenght = lenght;
 	}
 
-	void SetColor(string new_color)
+	void SetColor(string color)
 	{
-		if (new_color != "purple" && new_color != "pink" && new_color != "black" && new_color != "white")
+		if (color != "purple" && color != "pink" && color != "black" && color != "white")
 			cout << "Incorrect value for color. We only have purple, pink, black or white hair brushes in our store. Choose one of these\n";
 		else
-			color = new_color;
+			this->color = color;
 	}
 
-	void SetMaterial(string new_material)
+	void SetMaterial(string material)
 	{
-		if (new_material != "silicone" && new_material != "plastic")
+		if (material != "silicone" && material != "plastic")
 			cout << "Incorrect value for material. This brush can either be silicone or plastic. Choose one of these\n";
 		else
-			material = new_material;
+			this->material = material;
 	}
 
 	void Brush()
@@ -72,28 +72,28 @@ private:
 	string where; // стена или потолок
 
 public:
-	void SetType(string new_type)
+	void SetType(string type)
 	{
-		if (new_type != "warm" && new_type != "cold")
+		if (type != "warm" && type != "cold")
 			cout << "Incorrect value for type. The type can be either warm or cold. Choose one of these\n";
 		else
-			type = new_type;
+			this->type = type;
 	}
 
-	void SetBulb(int new_bulb)
+	void SetBulb(int bulb)
 	{
-		if (new_bulb < 1 && new_bulb > 24)
+		if (bulb < 1 && bulb > 24)
 			cout << "Incorrect value for bulb. Please enter value from 1 to 24\n";
 		else
-			bulb = new_bulb;
+			this->bulb = bulb;
 	}
 
-	void SetWhere(string new_where)
+	void SetWhere(string where)
 	{
-		if (new_where != "wall" && new_where != "ceiling")
+		if (where != "wall" && where != "ceiling")
 			cout << "Incorrect value for where. Please enter value \"wall\" or \"ceiling\"\n";
 		else
-			where = new_where;
+			this->where = where;
 	}
 
 	void On()
@@ -135,28 +135,28 @@ private:
 	string openable; // возможно ли открыть
 
 public:
-	void SetSize(string new_size)
+	void SetSize(string size)
 	{
-		if (new_size != "small" && new_size != "medium" && new_size != "big")
+		if (size != "small" && size != "medium" && size != "big")
 			cout << "Incorrect value for size. Please enter small, medium or big\n";
 		else
-			size = new_size;
+			this->size = size;
 	}
 
-	void SetDirection(string new_direc)
+	void SetDirection(string direction)
 	{
-		if (new_direc != "vertical" && new_direc != "horizontal")
+		if (direction != "vertical" && direction != "horizontal")
 			cout << "Incorrect value for direction. Please enter vertical or horizontal\n";
 		else
-			direction = new_direc;
+			this->direction = direction;
 	}
 
-	void SetOpenable(string new_openable)
+	void SetOpenable(string openabale)
 	{
-		if (new_openable != "yes" && new_openable != "no")
+		if (openable != "yes" && openable != "no")
 			cout << "Incorrect value for openable. Please enter yes or no\n";
 		else
-			openable = new_openable;
+			this->openable = openable;
 	}
 
 	void MakeSound()
@@ -198,28 +198,28 @@ private:
 	string material;
 
 public:
-	void SetLenght(int new_lenght)
+	void SetLenght(int lenght)
 	{
-		if (new_lenght < 60 && new_lenght > 400)
+		if (lenght < 60 && lenght > 400)
 			cout << "Incorrect value for lenght. Please enter value from 60 to 400\n";
 		else
-			lenght = new_lenght;
+			this->lenght = lenght;
 	}
 
-	void SetWidth(int new_width)
+	void SetWidth(int width)
 	{
-		if (new_width < 60 && new_width > 300)
+		if (width < 60 && width > 300)
 			cout << "Incorrect value for width. Please enter value from 60 to 300\n";
 		else
-			width = new_width;
+			this->width = width;
 	}
 
-	void SetMaterial(string new_material)
+	void SetMaterial(string material)
 	{
-		if (new_material != "wool" && new_material != "cotton" && new_material != "polyester" && new_material != "cashmere")
+		if (material != "wool" && material != "cotton" && material != "polyester" && material != "cashmere")
 			cout << "Incorrect value for material. Please enter wool, cotton, polyester or cashmere\n";
 		else
-			material = new_material;
+			this->material = material;
 	}
 
 	void MakeSound()
@@ -261,28 +261,28 @@ private:
 	string screen; // сенсор или кнопочки
 
 public:
-	void SetColor(string new_color)
+	void SetColor(string color)
 	{
-		if (new_color != "black" && new_color != "white" && new_color != "blue" && new_color != "pink")
+		if (color != "black" && color != "white" && color != "blue" && color != "pink")
 			cout << "Incorrect value for color. Please enter black, white, blue or pink\n";
 		else
-			color = new_color;
+			this->color = color;
 	}
 
-	void SetCompany(string new_company)
+	void SetCompany(string company)
 	{
-		if (new_company != "iphone" && new_company != "samsung" && new_company != "xiaomi" && new_company != "huawei")
+		if (company != "iphone" && company != "samsung" && company != "xiaomi" && company != "huawei")
 			cout << "Incorrect value for company. Please enter iphone, samsung, xiaomi or huawei\n";
 		else
-			company = new_company;
+			this->company = company;
 	}
 
-	void SetScreem(string new_screen)
+	void SetScreem(string screen)
 	{
-		if (new_screen != "sensor" && new_screen != "buttons")
+		if (screen != "sensor" && screen != "buttons")
 			cout << "Incorrect value for screen. Please enter sensor or buttons\n";
 		else
-			screen = new_screen;
+			this->screen = screen;
 	}
 
 	void Call()
@@ -361,7 +361,7 @@ int main()
 	MySwitch.On();
 	MySwitch.MakeSound();
 	MySwitch.Off();
-	space()
+	space();
 	
 
 	Window MyWindow;
