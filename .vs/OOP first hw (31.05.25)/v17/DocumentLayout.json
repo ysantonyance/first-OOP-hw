@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{FBA0E6A7-7B90-45E0-8756-50440D28E438}|OOP first hw (31.05.25)\\OOP first hw (31.05.25).vcxproj|C:\\Users\\zinov\\source\\repos\\OOP first hw (31.05.25)\\OOP first hw (31.05.25)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FBA0E6A7-7B90-45E0-8756-50440D28E438}|OOP first hw (31.05.25)\\OOP first hw (31.05.25).vcxproj|solutionrelative:OOP first hw (31.05.25)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBA0E6A7-7B90-45E0-8756-50440D28E438}|OOP first hw (31.05.25)\\OOP first hw (31.05.25).vcxproj|C:\\Users\\zinov\\source\\repos\\OOP first hw (31.05.25)\\OOP first hw (31.05.25)\\Phone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBA0E6A7-7B90-45E0-8756-50440D28E438}|OOP first hw (31.05.25)\\OOP first hw (31.05.25).vcxproj|solutionrelative:OOP first hw (31.05.25)\\Phone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBA0E6A7-7B90-45E0-8756-50440D28E438}|OOP first hw (31.05.25)\\OOP first hw (31.05.25).vcxproj|C:\\Users\\zinov\\source\\repos\\OOP first hw (31.05.25)\\OOP first hw (31.05.25)\\Phone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBA0E6A7-7B90-45E0-8756-50440D28E438}|OOP first hw (31.05.25)\\OOP first hw (31.05.25).vcxproj|solutionrelative:OOP first hw (31.05.25)\\Phone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Phone.h",
+              "DocumentMoniker": "C:\\Users\\zinov\\source\\repos\\OOP first hw (31.05.25)\\OOP first hw (31.05.25)\\Phone.h",
+              "RelativeDocumentMoniker": "OOP first hw (31.05.25)\\Phone.h",
+              "ToolTip": "C:\\Users\\zinov\\source\\repos\\OOP first hw (31.05.25)\\OOP first hw (31.05.25)\\Phone.h",
+              "RelativeToolTip": "OOP first hw (31.05.25)\\Phone.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-13T09:09:23.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Phone.cpp",
+              "DocumentMoniker": "C:\\Users\\zinov\\source\\repos\\OOP first hw (31.05.25)\\OOP first hw (31.05.25)\\Phone.cpp",
+              "RelativeDocumentMoniker": "OOP first hw (31.05.25)\\Phone.cpp",
+              "ToolTip": "C:\\Users\\zinov\\source\\repos\\OOP first hw (31.05.25)\\OOP first hw (31.05.25)\\Phone.cpp",
+              "RelativeToolTip": "OOP first hw (31.05.25)\\Phone.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-13T09:09:15.646Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "OOP first hw (31.05.25)\\Source.cpp",
               "ToolTip": "C:\\Users\\zinov\\source\\repos\\OOP first hw (31.05.25)\\OOP first hw (31.05.25)\\Source.cpp",
               "RelativeToolTip": "OOP first hw (31.05.25)\\Source.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAN0AAAAbAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-27T17:00:47.076Z",
               "EditorCaption": ""

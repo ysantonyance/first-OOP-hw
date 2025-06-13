@@ -18,5 +18,37 @@
     <ClCompile Include="Source.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="Hairbrush.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blanket.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phone.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hairbrush.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blanket.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phone.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
